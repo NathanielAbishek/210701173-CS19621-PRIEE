@@ -115,7 +115,7 @@ def Weight_Loss():
     veg=float(e2.get())
     weight=float(e3.get())
     height=float(e4.get())
-    bmi = weight/(height**2) 
+    bmi = (weight/(height**2))*10000
     agewiseinp=0
     
     for lp in range (0,80,20):
